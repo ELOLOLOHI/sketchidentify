@@ -1,0 +1,37 @@
+body{
+    background-color:#8DDFE6;
+}
+
+#canvasbtn{
+    padding:8px;
+    background-color: palevioletred;
+    color:white;
+    border-radius: 12px;
+    border-width: 5px;
+    border-style: outset;
+}
+
+#skeetchesbtn{
+    float: right;
+    margin-top: 490px;
+
+}
+
+#header{
+    background-color: palegoldenrod;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+canvas{
+    border-width: 10px;
+    border-style:outset;
+    animation-name: CanvasAni; 
+    animation-duration:5s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes CanvasAni{
+    from{box-shadow:5px 5px 50px purple;}
+    to{box-shadow:5px 5px 50px turquoise;}
+}
